@@ -1,0 +1,52 @@
+#container {
+    width: 70%;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+header {
+    height: 200px;
+    line-height: 200px;
+    background: darkcyan;
+    margin-bottom: 2px;
+}
+#main {
+    width: 60%;
+    height: 604px;
+    margin: 0 auto;
+}
+#main1 {
+    height: 348px;
+    margin-bottom: 4px;
+}
+#main1 .main-content {
+    width: 69.5%;
+    text-align: center;
+    line-height: 350px;
+    float: left;
+    background: green;
+    margin-right: 0.5%;
+}
+#main1 .sidebar {
+    width: 30%;
+    text-align: center;
+    line-height: 350px;
+    float: left;
+    background: purple;
+}
+#main2 {
+    height: 248px;
+    margin-bottom: 2px;
+}
+#main2 .twin {
+    width: 49.5%;
+    text-align: center;
+    line-height: 250px;
+    float: left;
+    background: orangered;
+    margin-right: 0.5%;
+}
+footer {
+    height: 200px;
+    line-height: 200px;
+    background: blue;
+}
