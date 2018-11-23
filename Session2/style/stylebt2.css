@@ -8,6 +8,7 @@ header {
     line-height: 200px;
     background: darkcyan;
     margin-bottom: 2px;
+    padding-left: 20px;
 }
 #main {
     width: 60%;
@@ -49,4 +50,5 @@ footer {
     height: 200px;
     line-height: 200px;
     background: blue;
+    padding-left: 20px;
 }
