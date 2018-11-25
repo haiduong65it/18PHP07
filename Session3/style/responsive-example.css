@@ -31,4 +31,7 @@
         width: 99%;
         margin: 0.5%;
     }
+    #container .hide_480 {
+        display: none;
+    }
 }

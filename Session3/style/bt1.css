@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+header {
+    height: 150px;
+}
+#header {
+    height: 103px;
+    border: 1px solid black;
+}
+#logo {
+    width: 25%;
+    height: 80px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 80px;
+    float: left;
+    margin: 1%;
+    margin-left: 4%; 
+}
+.banner {
+    width: 65%;
+    height: 80px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 80px;
+    float: left;
+    margin: 1%;
+}
+#menu {
+    width: 99.8%;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 45px;
+    float: left;
+    height: 45px;
+}
+.slider {
+    width: 99.8%;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 100px;
+    float: left;
+    height: 100px;
+}
+#new {
+    height: 200px;
+    clear: both;
+    border: 1px solid black;
+}
+#new .viewnew {
+    width: 30%;
+    height: 170px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 170px;
+    float: left;
+    margin: 1.2%;
+}
+#paragraph {
+    height: 250px;
+    clear: both;
+    border: 1px solid black;
+}
+#paragraph .p {
+    width: 22%;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+    line-height:200px;
+    float: left;
+    margin: 1.2%;
+}
+footer {
+    height: 100px;
+    clear: both;
+    border: 1px solid black;
+}
+footer .footer1 {
+    width: 95%;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 40px;
+    margin: 0.5% auto;
+}
+footer .footer2 {
+    width: 49%;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    margin-left: 0.5%; 
+}
+@media screen and (max-width: 768px) {
+    #logo {
+        width: 45%;
+        margin: 2%;
+    }
+    .banner {
+        width: 45%;
+        margin: 2%;
+    }
+    #new {
+        height: 400px;
+    }
+    #new .viewnew {
+        width: 45%;
+        margin: 2%;
+    }
+    #new .new3{
+        width: 95%;
+        margin: 2%;
+    }
+    #paragraph {
+        height: 460px;
+    }
+    #paragraph .p {
+        width: 45%;
+        margin: 2%;
+    }
+    footer {
+        height: 50px;
+    }
+    footer .footer1 {
+        float: left;
+        width: 48%;
+        margin-left: 1%;
+    }
+    footer .footer2 {
+        margin-top: 0.5%;
+        width: 48%;
+    }
+    .ft_hide {
+        display: none;
+    }
+}
+@media screen and (max-width: 480px) {
+    #logo {
+        width: 95%;
+        margin: 2%;
+    }
+    #new {
+        height: 380px;
+    }
+    #new .viewnew {
+        width: 95%;
+        margin: 2%;
+    }
+    #paragraph {
+        height: 230px;
+    }
+    #paragraph .p {
+        width: 45%;
+        margin: 2%;
+    }
+    footer {
+        height: 50px;
+    }
+    footer .footer1 {
+        width: 97%;
+        margin: 1%;
+    }
+    .hide {
+        display: none;
+    }
+}

@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container {
+    width: 80%;
+    margin: 10px auto;
+}
+header {
+    height: 80px;
+    background: lightskyblue;
+    padding-left: 1%;
+    margin-bottom: 1%;
+}
+header .brond {
+    width: 15%;
+    float: left;
+    background: rgb(224, 239, 248);
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    margin-right: 1%;
+}
+header .globol {
+    width: 60%;
+    float: left;
+    background: rgb(224, 239, 248);
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    margin-right: 1%;
+}
+header .tods {
+    width: 22%;
+    float: left;
+    background: rgb(224, 239, 248);
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+}
+#hero {
+    height: 120px;
+    background: lightskyblue;
+    padding-left: 1%;
+    width: 75%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+#hero .hero_feoture {
+    width: 60%;
+    float: left;
+    background: rgb(224, 239, 248);
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    margin-right: 1%;
+}
+#hero .hero_coltoaction {
+    width: 38%;
+    float: left;
+    background: rgb(224, 239, 248);
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+}
+.ad {
+    height: 120px;
+    background: rgb(10, 137, 216);
+    width: 23%;
+    float: left;
+    line-height: 120px;
+    text-align: center;
+}
+.hide4 {
+    display: none;
+}
+#body {
+    height: 300px;
+    background: lightskyblue;
+    padding-left: 1%;
+    margin-bottom: 1%;
+    float: left;
+    width: 75%;
+    margin-right: 1%;
+}
+#body .aricle_feoture {
+    width: 30%;
+    float: left;
+    background: rgb(224, 239, 248);
+    height: 260px;
+    line-height: 260px;
+    text-align: center;
+    margin-right: 1%;
+}
+#body .aricle_listing {
+    width: 68%;
+    float: left;
+    background: rgb(224, 239, 248);
+    height: 260px;
+    line-height: 260px;
+    text-align: center;
+}
+.sidebar {
+    height: 300px;
+    background: lightskyblue;
+    padding-left: 1%;
+    margin-bottom: 1%;
+    float: left;
+    width: 22%;
+}
+.sidebar .sidebar_futer {
+    width: 98%;
+    background: rgb(224, 239, 248);
+    height: 260px;
+    line-height: 260px;
+    text-align: center;
+}
+footer {
+    height: 80px;
+    background: lightskyblue;
+    padding-left: 1%;
+    width: 99%;
+    clear: both;
+}
+@media screen and (max-width: 768px) {
+    #hero {
+        width: 99%;
+    }
+    #hero .hero_feoture {
+        width: 99%;
+        height: 50px;
+        line-height: 50px;
+        margin-bottom: 5px;
+    }
+    #hero .hero_coltoaction {
+        width: 99%;
+        height: 35px;
+        line-height: 35px;
+    }
+    .hide3 {
+        display: none;
+    }
+    .hide4 {
+        display: block;
+        height: 140px;
+        line-height: 140px;
+    }
+    #body {
+        height: 450px;
+        width: 99%;
+    }
+    #body .aricle_feoture {
+        width: 75%;
+        height: 140px;
+        line-height: 140px;
+        margin-bottom: 1%;
+        float: left;
+    }
+    #body .aricle_listing {
+        width: 99%;
+    }
+    .sidebar {
+        height: 120px;
+        background: lightskyblue;
+        width: 99%;
+    }
+    .sidebar .sidebar_futer {
+        width: 99%;
+        height: 80px;
+        line-height: 80px;
+    }
+}
+@media screen and (max-width: 480px) {
+    header .brond {
+        width: 99%;
+        height: 20px;
+        line-height: 20px;
+        margin-bottom: 1px;
+    }
+    header .globol {
+        width: 54%;
+        height: 25px;
+        line-height: 25px;
+    }
+    header .tods {
+        width: 44%;
+        height: 25px;
+        line-height: 25px;
+    }
+    .hide {
+        display: none;
+    }
+    #hero {
+        height: 60px;
+    }
+    #body {
+        height: 160px;
+        width: 99%;
+    }
+    #body .aricle_feoture {
+        width: 99%;
+        height: 30px;
+        line-height: 30px;
+        margin-bottom: 1px;
+    }
+    #body .aricle_listing {
+        width: 99%;
+        height: 70px;
+        line-height: 70px;
+    }
+    .hide4 {
+        display: block;
+        height: 30px;
+        line-height: 30px;
+        width: 99%;
+        margin-bottom: 1px;
+    }
+    footer{
+        height: 50px;
+        line-height: 50px;
+    }
+}
