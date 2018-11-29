@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+#container header {
+    height: 155px;
+    position: relative;
+    margin-left: 4%;
+}
+#container header .banner {
+    position: absolute;
+    height: 152px;
+}
+#container header .logo {
+    position: absolute;
+    right: 32px;
+    z-index: 1;
+}
+#container header .logo img {
+    height: 154px;
+}
+#container nav {
+    clear: both;
+    width: 100%;
+    height: 50px;
+    margin-left: 3%;
+}
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+nav .menu-b1 li {
+    float: left;
+    width: 200px;
+    border: 2px solid blue;
+}
+nav .menu-b1 li li {
+    float: none;
+}
+nav .menu-b1 .menu-b2 {
+    display: none;
+    margin: 0;
+    position: absolute;
+}
+nav .menu-b1 li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid white;
+    background: blue;
+    color: white;
+}
+nav .menu-b1 li a:hover {
+    color: black;
+}
+nav .menu-b1 li:hover .menu-b2 {
+    display: block;
+}
+section .slider {
+    clear: both;
+    text-align: center;
+}
+section .slider img {
+    width: 1000px;
+    height: 360px;
+}
+section .gioithieu {
+    width: 47.6%;
+    border: 2px solid blue;
+    float: left;
+    padding: 10px;
+    margin-right: 3px;
+}
+section .gioithieu img {
+    width: 100%;
+}
+section .gioithieu p {
+    text-align: justify;
+}
+section .gioithieu b {
+    padding: 5px;
+}
+section .tintuc {
+    width: 47.6%;
+    border: 2px solid black;
+    float: left;
+    padding: 10px;
+    padding-bottom: 108px;
+}
+section .tintuc img {
+    width: 100%;
+}
+section .tintuc p {
+    text-align: justify;
+}
+footer {
+    background: green;
+    color: white;
+    height: 100px;
+    padding: 20px;
+    clear: both;
+    text-align: center;
+}
+
+
+

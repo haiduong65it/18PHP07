@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#menu ul{
+    list-style-type: none;
+    margin-left: 20px; 
+    margin-top: 20px;
+}
+#menu ul li {
+    border: 2px solid blue;
+    float: left;
+}
+#menu ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;    
+    text-align: center;
+    display: block;
+    width: 175px;
+    background: blue;
+    border: 2px solid white;
+    font-weight: bold;
+}
+#menu ul li a.active {
+    color: yellow;
+}
+#menu ul li:hover {
+    background: cyan;
+}

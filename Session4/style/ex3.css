@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#menu {
+    margin: 0 auto;
+    width: 60%;
+}
+#menu ul{
+    list-style-type: none;
+    margin-left: 20px; 
+    margin-top: 20px;
+}
+#menu ul li {
+    float: left;
+    width: 175px;
+    border: 2px solid blue;
+}
+#menu ul li li{
+    float: none;
+}
+#menu ul ul {
+    display: none;
+    margin: 0;
+}
+#menu ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid white;
+    background: blue;
+    color: white;
+}
+#menu ul li a:hover {
+    color: black;
+}
+#menu ul li:hover {
+    background: limegreen;
+}
+#menu ul li:hover ul {
+    display: block;
+}
