@@ -16,7 +16,7 @@ function chia(a, b){
     document.writeln(a +" / " +b+ " = "+(a/b));
     document.write("<br>");
 }
-console.log(cong(a, b));
-console.log(tru(a, b));
-console.log(nhan(a, b));
-console.log(chia(a, b));
+cong(a, b);
+tru(a, b);
+nhan(a, b);
+chia(a, b);
