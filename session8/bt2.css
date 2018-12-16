@@ -1,0 +1,25 @@
+body {
+    width: 50%;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+}
+p {
+    width: 300px;
+    height: 30px;
+    margin: 0 -10px;
+    text-align: right;
+    font-size: 150%;
+}
+form {
+    width: 300px;
+    border: 2px solid black;
+    height: 280px;
+}
+input {
+    width: 70px;
+    margin-bottom: 2px;
+    height: 30px; 
+    font-size: 150%;
+}

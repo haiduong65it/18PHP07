@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Ex2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="content">
+        <div class="player">
+            <img src="Cong-Phuong.jpg" alt="Công phượng" onclick="loadInfor('cp')">
+        </div>
+        <div class="player">
+            <img src="Xuan_Truong.jpg" alt="Xuân Trường" onclick="loadInfor('xt')">
+        </div>
+        <div class="player">
+            <img src="Quang-Hai.jpg" alt="Quang Hải" onclick="loadInfor('qh')">
+        </div>
+        <div class="player">
+            <img src="phan_van_duc.jpg" alt="Phan Văn Đức" onclick="loadInfor('pvd')">
+        </div>
+        <div class="player_full">
+            <img src="default.jpg" alt="default" id="default">
+            <div id="Show">
+                <p>Name: <span id="name"></span></p>
+                <p>Age: <span id="age"></span></p>
+            </div>
+        </div>
+        <div>
+            <form>
+                <p>Bạn đã ghi bàn tại AFF 2018 chưa?</p>
+                <input type="radio" value="yes" name="vote" id="yes" onclick="voteGoal()">Rồi 
+                <input type="radio" value="no" name="vote" id="no" onclick="voteGoal()">Chưa <br>
+                <p><input type="text" id="result" placeholder="Please input your country score?"></p>
+                <input type="button" value="OK" id="ok" onclick="show()">
+            </form>
+            <p id="result2"></p>
+        </div>
+        <script src="Ex2.js"></script>
+    </div>
+</body>
+</html>

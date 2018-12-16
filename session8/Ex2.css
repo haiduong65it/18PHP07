@@ -1,0 +1,15 @@
+#content {
+    width: 50%;
+    margin: 0 auto;
+}
+.player img {
+    float: left;
+    width: 45%;
+    height: 180px;
+    margin: 2%;
+}
+#content .player_full img{
+    clear: both;
+    width: 80%;
+    margin: auto;
+}
