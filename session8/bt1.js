@@ -1,7 +1,6 @@
 document.getElementById('avatar').style.display = "none";
 function getInfo() {
-    var e = document.getElementById("year");
-    var year = e.options[e.selectedIndex].value;
+    var year = document.getElementById("year").value;
     year = parseInt(year);
     document.getElementById('re_birth').innerHTML = year;
     if (year > 1998)
